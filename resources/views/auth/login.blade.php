@@ -44,4 +44,11 @@
             </x-primary-button>
         </div>
     </form>
+    <div style="margin-top:20px">
+        <a href="/practica_laravel/public/auth/discord">
+            <button>
+                Login con Discord
+            </button>
+        </a>
+    </div>
 </x-guest-layout>
