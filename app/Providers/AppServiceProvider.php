@@ -23,6 +23,7 @@ class AppServiceProvider extends ServiceProvider
     {
         \Event::listen(function (SocialiteWasCalled $event) {
             $event->extendSocialite('discord', \SocialiteProviders\Discord\Provider::class);
+            $event->extendSocialite('spotify', \SocialiteProviders\Spotify\Provider::class);
         });
     }
 }

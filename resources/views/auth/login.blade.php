@@ -50,5 +50,11 @@
                 Login con Discord
             </button>
         </a>
+        <br>
+        <a href="{{ url('/auth/spotify') }}">
+            <button>
+                Login con Spotify
+            </button>
+        </a>
     </div>
 </x-guest-layout>
